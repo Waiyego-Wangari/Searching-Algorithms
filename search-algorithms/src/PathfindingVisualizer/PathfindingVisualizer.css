@@ -1,3 +1,53 @@
 .grid {
   margin: 100px 0 0;
 }
+.navbar {
+  background-color: #f8f8f8; /* Light grey background */
+  border-bottom: 1px solid #e7e7e7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px; /* Padding on all sides */
+}
+.navbar .btn {
+  font-size: 16px; /* Adjust the size as needed */
+  padding: 10px 20px; /* Top/bottom padding and left/right padding */
+  margin: 0 10px; /* Space between buttons */
+  border: none; /* Remove border if you prefer buttons without borders */
+  border-radius: 5px; /* Rounded corners for the buttons */
+  background-color: #007bff; /* Background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Cursor indicates clickable button */
+  line-height: 1.5; /* Center the text vertically */
+  transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+.navbar .btn:hover {
+  background-color: #0056b3; /* Darker blue on hover for a visual effect */
+}
+.navbar a {
+  text-decoration: none;
+  color: #333; /* Dark grey text */
+  margin-right: 15px; /* Space between links */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar a:hover {
+  color: #007bff; /* Blue color on hover */
+}
+
+.navbar a.active {
+  color: #007bff; /* Blue color for active state */
+  font-weight: bold;
+}
+
+.navbar .logo {
+  float: left; /* Align logo to the left */
+  margin-right: 20px; /* Space after logo */
+}
+
+/* Example media query for responsiveness */
+@media (max-width: 768px) {
+  .navbar a {
+    padding: 10px; /* Bigger touch targets on smaller screens */
+    display: block; /* Stack links vertically on smaller screens */
+    margin-right: 0;
+  }
+}
