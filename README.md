@@ -1,5 +1,9 @@
 # Searching-Algorithms
 This project is a visualization of breadth-first search and depth-first search algorithms. A stretch goal is to implement Dikjstra's algorithm as well.
+
+
+
+
 Getting Started with Create React App
 This project was bootstrapped with Create React App.
 
